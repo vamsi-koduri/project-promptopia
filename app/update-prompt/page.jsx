@@ -73,7 +73,7 @@
 
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/router"; // Change import statement
+import { useRouter } from "next/navigation"; // Change import statement
 import { useSearchParams } from "react-router-dom"; // Import useSearchParams from react-router-dom
 
 import Form from "@components/Form";
